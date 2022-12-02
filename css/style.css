@@ -244,14 +244,38 @@ header .pattern3 {
   height: auto;
   padding: 10rem 0;
 }
-
-.features2 .md {
-  background-color: #040efe;
-  font-size: 2rem;
-  width: 60px;
-  height: 40px;
-  padding: 1rem;
+.features2 .main-icon {
+  background-color: var(--primary);
+  padding: 2rem;
+  width: 80px;
+  height: 80px;
+  font-size: 3.5rem;
   border-radius: 50px;
+  line-height: 1rem;
+  margin-right: 2rem;
+  text-align: center;
+}
+.features2 .content h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+.features2 .content p {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  color: var(--grey);
+}
+.features2 .content .title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.features2 .content .icon {
+  background-color: #040efe;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
 }
 /* ############## DOWNLOADS ##############  */
 .downloads {
