@@ -61,7 +61,7 @@ p {
 /* ########## HEADER ############  */
 header {
   width: 100%;
-  height: 95vh;
+  height: auto;
   padding: 2rem 3rem;
   background-color: var(--black);
   position: relative;
@@ -111,11 +111,11 @@ header .dashboard {
 header::after {
   content: "";
   position: absolute;
-  bottom: -250px;
+  bottom: 0px;
   left: 0;
   width: 100%;
-  height: 250px;
-  background-color: #040efe;
+  height: 20%;
+  background-color: var(--white);
 }
 
 header .dashboard img {
@@ -144,4 +144,177 @@ header .pattern3 {
   width: 224px;
   top: 533px;
   left: 149px;
+}
+/* ########### PRIVACY ############3  */
+.privacy {
+  width: 100%;
+  height: auto;
+  padding: 8rem 0;
+}
+.privacy .privacy-img {
+  width: 590px;
+}
+.privacy .privacy-img img {
+  width: 100%;
+}
+
+.privacy h2 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.privacy p {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+.privacy a .title {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.privacy a .icon {
+  position: relative;
+  top: 3px;
+}
+/* ################### FEATURES ###############  */
+
+.features {
+  width: 100%;
+  height: auto;
+  background-color: var(--bg);
+  padding: 10rem 0;
+}
+
+.main-heading h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.main-heading p {
+  font-size: 1.4rem;
+  margin-bottom: 7rem;
+}
+
+.features .icon {
+  position: relative;
+  font-size: 2.6rem;
+  color: var(--white);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.features .md {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+}
+.features .title {
+  margin-left: 0.8rem;
+}
+.features .title h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.color1 {
+  background-color: #7a41f8;
+}
+.color2 {
+  background-color: #ff8083;
+}
+.color3 {
+  background-color: #fbce82;
+}
+.color4 {
+  background-color: #bfa1f9;
+}
+
+.features .features-img {
+  width: 1000px;
+  margin: 0 auto;
+}
+.features .features-img img {
+  width: 100%;
+}
+
+/* ################ FEATURES2  ###############  */
+
+.features2 {
+  width: 100%;
+  height: auto;
+  padding: 10rem 0;
+}
+
+.features2 .md {
+  background-color: #040efe;
+  font-size: 2rem;
+  width: 60px;
+  height: 40px;
+  padding: 1rem;
+  border-radius: 50px;
+}
+/* ############## DOWNLOADS ##############  */
+.downloads {
+  width: 100%;
+  height: auto;
+  padding: 10rem 0rem;
+}
+.downloads .download-img {
+  width: 500px;
+}
+.downloads .download-img img {
+  width: 100%;
+}
+
+.downloads .content h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  line-height: 4rem;
+}
+.downloads .content p {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+.downloads .content .download-buttons a {
+  margin-right: 2rem;
+}
+/* ################# FOOTER ###############  */
+footer {
+  width: 100%;
+  height: auto;
+  background-color: var(--black);
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+}
+footer h3 {
+  color: var(--white);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+footer ul {
+  padding-left: 0;
+}
+footer a {
+  display: inline-block;
+  color: var(--grey);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+footer .copyright {
+  padding: 1rem 0;
+}
+hr {
+  border: 2px solid var(--grey);
+  background-color: var(--grey);
+}
+footer .copyright .logo h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--bg);
+}
+footer .copyright p {
+  font-size: 1.2rem;
+  color: var(--white);
 }
